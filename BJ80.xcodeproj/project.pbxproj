@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D50705D621B510BD0033D919 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D50705D521B510BD0033D919 /* main.c */; };
+		D50705E121B510F00033D919 /* COP_Drv.c in Sources */ = {isa = PBXBuildFile; fileRef = D50705E021B510F00033D919 /* COP_Drv.c */; };
+		D50705E421B510FF0033D919 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = D50705E321B510FF0033D919 /* init.c */; };
+		D50705E721B511140033D919 /* operate.c in Sources */ = {isa = PBXBuildFile; fileRef = D50705E621B511140033D919 /* operate.c */; };
+		D50705EA21B513030033D919 /* CAN.c in Sources */ = {isa = PBXBuildFile; fileRef = D50705E921B513030033D919 /* CAN.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		D50705D221B510BD0033D919 /* BJ80 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BJ80; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50705D521B510BD0033D919 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D50705DF21B510F00033D919 /* COP_Drv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COP_Drv.h; sourceTree = "<group>"; };
+		D50705E021B510F00033D919 /* COP_Drv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = COP_Drv.c; sourceTree = "<group>"; };
+		D50705E221B510FF0033D919 /* init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		D50705E321B510FF0033D919 /* init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = init.c; sourceTree = "<group>"; };
+		D50705E521B511140033D919 /* operate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = operate.h; sourceTree = "<group>"; };
+		D50705E621B511140033D919 /* operate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = operate.c; sourceTree = "<group>"; };
+		D50705E821B513030033D919 /* CAN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAN.h; sourceTree = "<group>"; };
+		D50705E921B513030033D919 /* CAN.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CAN.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				D50705D521B510BD0033D919 /* main.c */,
+				D50705E821B513030033D919 /* CAN.h */,
+				D50705E921B513030033D919 /* CAN.c */,
+				D50705E521B511140033D919 /* operate.h */,
+				D50705E621B511140033D919 /* operate.c */,
+				D50705E221B510FF0033D919 /* init.h */,
+				D50705E321B510FF0033D919 /* init.c */,
+				D50705DF21B510F00033D919 /* COP_Drv.h */,
+				D50705E021B510F00033D919 /* COP_Drv.c */,
 			);
 			path = BJ80;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50705EA21B513030033D919 /* CAN.c in Sources */,
+				D50705E721B511140033D919 /* operate.c in Sources */,
 				D50705D621B510BD0033D919 /* main.c in Sources */,
+				D50705E121B510F00033D919 /* COP_Drv.c in Sources */,
+				D50705E421B510FF0033D919 /* init.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
